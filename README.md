@@ -150,6 +150,8 @@
 - [macRabbitMQ](https://www.jianshu.com/p/60c358235705)
 - [nsq](https://segmentfault.com/a/1190000009194607)
 - [AST](https://toutiao.io/posts/hbw7ev/preview)
+- [静态文件打包](https://github.com/elazarl/go-bindata-assetfs/)
+- [静态文件打包](https://juejin.im/post/6863830785712095245)
 
 ### 常用命令
 
