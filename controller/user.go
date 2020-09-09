@@ -12,7 +12,7 @@ import (
 	"github.com/daodao97/egin/db"
 	"github.com/daodao97/egin/utils"
 
-	"github.com/daodao97/egin-skeleton/model"
+	"skeleton/model"
 )
 
 type BaseApi struct {

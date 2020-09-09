@@ -10,7 +10,7 @@ import (
 	"github.com/daodao97/egin/consts"
 	"github.com/daodao97/egin/db"
 
-	"github.com/daodao97/egin-skeleton/model"
+	"skeleton/model"
 )
 
 // @Controller BUYER管理 这里是简介

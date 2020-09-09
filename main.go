@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/daodao97/egin"
 
-	"github.com/daodao97/egin-skeleton/config"
+	"skeleton/config"
 )
 
 // config/*** 存放启动时配置, 如路由, 中间件

@@ -14,7 +14,7 @@ import (
 	"github.com/daodao97/egin/middleware"
 	"github.com/daodao97/egin/utils"
 
-	"github.com/daodao97/egin-skeleton/controller"
+	"skeleton/controller"
 )
 
 func RegBuyerRouter(r *gin.Engine) {
