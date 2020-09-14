@@ -23,8 +23,8 @@ github.com/cespare/xxhash/v2 v2.1.1/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XL
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
 github.com/confluentinc/confluent-kafka-go v1.4.2/go.mod h1:u2zNLny2xq+5rWeTQjFHbDzzNuba4P1vo31r9r4uAdg=
-github.com/daodao97/egin v0.0.0-20200909010753-1431f629fb1e h1:mYXCR+bPSXWN+RZERCXUevR3iR8Fn45T0lcB/kzZwqU=
-github.com/daodao97/egin v0.0.0-20200909010753-1431f629fb1e/go.mod h1:rRr1CrNxlb7j+z2Krn/8b+/B8ofOtREPqBCa5L7lUos=
+github.com/daodao97/egin v0.0.0-20200914085431-d1f2c18db8db h1:slDmObLzYqN4ftQGFsbtNQ0mjzku1XdyjiGiGOdSnSk=
+github.com/daodao97/egin v0.0.0-20200914085431-d1f2c18db8db/go.mod h1:rRr1CrNxlb7j+z2Krn/8b+/B8ofOtREPqBCa5L7lUos=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
