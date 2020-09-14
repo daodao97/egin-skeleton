@@ -4,15 +4,13 @@
 package routes
 
 import (
-	"net/http"
-
-	"github.com/gin-gonic/gin"
-	"github.com/go-playground/validator/v10"
+	"strings"
 
 	"github.com/daodao97/egin"
 	"github.com/daodao97/egin/consts"
 	"github.com/daodao97/egin/middleware"
 	"github.com/daodao97/egin/utils"
+	"github.com/gin-gonic/gin"
 
 	"skeleton/controller"
 )
@@ -22,17 +20,11 @@ func RegUserRouter(r *gin.Engine) {
 	r.Handle("GET", "/user", func() func(ctx *gin.Context) {
 		return func(ctx *gin.Context) {
 			var params controller.ParamsValidate
-			err := ctx.ShouldBind(&params)
-			if err != nil {
-				errs, _ := utils.TransErr(params, err.(validator.ValidationErrors))
-				ctx.JSON(http.StatusOK, gin.H{
-					"code":    consts.ErrorParam,
-					"message": errs,
-				})
-				ctx.Abort()
+			errs := utils.Validated(ctx, &params)
+			if errs != nil {
+				egin.Fail(ctx, consts.ErrorParam, strings.Join(errs, "\n"))
 				return
 			}
-
 			result, code, err := controller.User{}.Get(ctx, params)
 			egin.Response(ctx, result, code, err)
 		}

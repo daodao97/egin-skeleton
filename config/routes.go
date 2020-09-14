@@ -11,8 +11,6 @@ import (
 
 func RegRouter(r *gin.Engine) {
 
-	routes.RegBuyerRouter(r)
-
 	routes.RegUserRouter(r)
 
 	routes.RegUserCustomValidateFunc()
